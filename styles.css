@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --laranja-claro: #f82aff;
+    --alto-contraste-fundo: #e210a0;
+    --alto-contraste-texto: #930847;
+    --alto-contraste-link: #cc1448;
 }
 
 body {
@@ -24,7 +24,7 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #dfa8bc;
     font-weight: 600;
 }
 
@@ -60,7 +60,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--rosa-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -70,11 +70,11 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--rosa-claro);
 }
 
 
-#tropicalia {
+#barbie {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
@@ -85,7 +85,7 @@ section {
     /* Ajuste o tamanho conforme necessário */
 }
 
-#tropicalia .container {
+#barbie .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,7 +188,7 @@ h2 {
     color: var(--alto-contraste-fundo)
 }
 
-.alto-contraste #tropicalia {
+.alto-contraste #barbie {
     background: none;
 }
 
